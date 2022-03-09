@@ -543,3 +543,9 @@ p {
     display: inline-block;
     transition: 0.8s;
 }
+
+.fixed-back-button {
+    position: fixed;
+    left: 4px;
+    top: 4px;
+}

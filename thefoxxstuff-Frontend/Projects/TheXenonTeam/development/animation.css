@@ -1,0 +1,30 @@
+.poyavlenie {
+    opacity: 0;
+    animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+header {
+    transform: translateX(-150%);
+    animation: ani 1s forwards;
+}
+
+@keyframes ani {
+    0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* Last Releases 3X and show more 3-тий который */
