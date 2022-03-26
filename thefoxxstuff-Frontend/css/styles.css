@@ -13,6 +13,31 @@
     src: url(/fonts/UnicaOne-Regular.ttf);
 }
 
+
+/* Works on Firefox */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #7e7e7e #111;
+}
+
+
+/* Works on Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #111;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #7e7e7e;
+    border-radius: 20px;
+    border: 3px solid #111;
+}
+
 body {
     background-color: #111;
     padding: 0;
@@ -227,6 +252,7 @@ li {
     margin: auto;
     color: #000;
     text-align: center;
+    user-select: none;
 }
 
 .footer-socicalsimg {
@@ -245,7 +271,7 @@ li {
     width: 100%;
     position: absolute;
     z-index: -99;
-    height: 500px;
+    height: 730px;
     overflow: hidden;
     object-fit: cover;
 }
@@ -256,7 +282,7 @@ li {
     z-index: -98;
     width: 100%;
     position: absolute;
-    height: 500px;
+    height: 730px;
     overflow: hidden;
 }
 
@@ -314,6 +340,7 @@ li {
     border-radius: 5px;
     overflow: hidden;
     transition: 0.2s;
+    object-fit: cover
 }
 
 .card-price {
@@ -351,6 +378,23 @@ li {
     }
     .card-title {
         text-align: left;
+    }
+    .background {
+        width: 100%;
+        position: absolute;
+        z-index: -99;
+        height: 500px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .back {
+        background: linear-gradient(180deg, rgba(17, 17, 17, 0) 0%, #111111 82.81%, #111111 100%), url(/images/dots.png), rgba(17, 17, 17, 0.6);
+        background-blend-mode: normal, multiply, normal;
+        z-index: -98;
+        width: 100%;
+        position: absolute;
+        height: 500px;
+        overflow: hidden;
     }
 }
 
