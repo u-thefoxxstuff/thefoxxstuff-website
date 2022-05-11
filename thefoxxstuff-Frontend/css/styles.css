@@ -593,3 +593,20 @@ p {
     left: 4px;
     top: 4px;
 }
+
+.dir {
+    color: #7E7E7E;
+}
+
+.dir a {
+    color: #7E7E7E;
+}
+
+.dir a:hover {
+    color: #ffffff;
+}
+
+.n {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
