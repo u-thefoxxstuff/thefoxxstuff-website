@@ -610,3 +610,7 @@ p {
     margin-top: 60px;
     margin-bottom: 0px;
 }
+
+.header-template {
+    height: 60px;
+}
