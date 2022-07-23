@@ -56,6 +56,10 @@ a {
     text-decoration: none;
 }
 
+.bx {
+    color: #7e7e7e;
+}
+
 .container {
     margin: auto;
     max-width: 600px;
@@ -222,12 +226,32 @@ li {
     transition: all 0.2s ease;
 }
 
+.link-other-r {
+    font-family: 'Space Mono', sans-serif;
+    color: #7e7e7e;
+    font-style: normal;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: normal;
+    float: right;
+}
+
 .link-other:hover {
     color: #C4C4C4;
     transition: all 0.15s ease;
 }
 
 .link-other:active {
+    color: #ffffff;
+    transition: all 0.1s ease;
+}
+
+.link-other-r:hover {
+    color: #C4C4C4;
+    transition: all 0.15s ease;
+}
+
+.link-other-r:active {
     color: #ffffff;
     transition: all 0.1s ease;
 }
